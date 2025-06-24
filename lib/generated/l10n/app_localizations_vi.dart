@@ -92,4 +92,18 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get changeLanguage => 'Đổi Ngôn Ngữ';
+
+  @override
+  String get explore => 'Khám Phá';
+
+  @override
+  String get favorites => 'Yêu Thích';
+
+  @override
+  String get explorePageDescription =>
+      'Khám phá những điều thú vị xung quanh bạn.';
+
+  @override
+  String get favoritesPageDescription =>
+      'Những mục yêu thích của bạn được lưu trữ ở đây.';
 }

@@ -1,5 +1,5 @@
 #include "Generated.xcconfig"
-
+ 
 FLUTTER_TARGET=lib/main_develop.dart
 PRODUCT_BUNDLE_IDENTIFIER=com.example.flutter_base_project.dev
 PRODUCT_NAME=Flutter Base Project Dev

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../features/user/presentation/pages/home_page.dart';
+import '../../root/presentation/pages/root_screen.dart';
 import '../../features/user/presentation/pages/profile_page.dart';
 
 class AppRouter {
@@ -13,8 +13,9 @@ class AppRouter {
       GoRoute(
         path: home,
         name: 'home',
-        builder: (context, state) => const HomePage(),
+        builder: (context, state) => const RootScreen(),
       ),
+      // Individual profile route if needed (for deep linking)
       GoRoute(
         path: profile,
         name: 'profile',

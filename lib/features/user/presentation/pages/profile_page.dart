@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import '../../../../generated/l10n/app_localizations.dart';
 
 class ProfilePage extends StatelessWidget {
@@ -13,10 +12,7 @@ class ProfilePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(localizations.profile),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () => context.go('/'),
-        ),
+        automaticallyImplyLeading: false,
       ),
       body: Center(
         child: Column(

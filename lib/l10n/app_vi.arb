@@ -27,5 +27,9 @@
   "language": "Ngôn Ngữ",
   "english": "Tiếng Anh",
   "vietnamese": "Tiếng Việt",
-  "changeLanguage": "Đổi Ngôn Ngữ"
+  "changeLanguage": "Đổi Ngôn Ngữ",
+  "explore": "Khám Phá",
+  "favorites": "Yêu Thích",
+  "explorePageDescription": "Khám phá những điều thú vị xung quanh bạn.",
+  "favoritesPageDescription": "Những mục yêu thích của bạn được lưu trữ ở đây."
 } 

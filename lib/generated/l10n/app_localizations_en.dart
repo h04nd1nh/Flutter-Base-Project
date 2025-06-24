@@ -92,4 +92,17 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get changeLanguage => 'Change Language';
+
+  @override
+  String get explore => 'Explore';
+
+  @override
+  String get favorites => 'Favorites';
+
+  @override
+  String get explorePageDescription =>
+      'Discover interesting things around you.';
+
+  @override
+  String get favoritesPageDescription => 'Your favorite items are stored here.';
 }

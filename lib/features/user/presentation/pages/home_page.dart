@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:go_router/go_router.dart';
 import '../../../../core/di/injection.dart';
-import '../../../../core/router/app_router.dart';
 import '../../../../generated/l10n/app_localizations.dart';
 import '../../../../flavors.dart';
 import '../../../../widgets/language_picker.dart';
@@ -24,11 +22,6 @@ class HomePage extends StatelessWidget {
           actions: const [LanguagePicker()],
         ),
         body: const _HomeContent(),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () => context.go(AppRouter.profile),
-          tooltip: localizations.goToProfile,
-          child: const Icon(Icons.person),
-        ),
       ),
     );
   }

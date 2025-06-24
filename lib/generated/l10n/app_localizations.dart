@@ -265,6 +265,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Change Language'**
   String get changeLanguage;
+
+  /// Explore page title
+  ///
+  /// In en, this message translates to:
+  /// **'Explore'**
+  String get explore;
+
+  /// Favorites page title
+  ///
+  /// In en, this message translates to:
+  /// **'Favorites'**
+  String get favorites;
+
+  /// Explore page description text
+  ///
+  /// In en, this message translates to:
+  /// **'Discover interesting things around you.'**
+  String get explorePageDescription;
+
+  /// Favorites page description text
+  ///
+  /// In en, this message translates to:
+  /// **'Your favorite items are stored here.'**
+  String get favoritesPageDescription;
 }
 
 class _AppLocalizationsDelegate

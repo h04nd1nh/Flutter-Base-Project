@@ -111,5 +111,21 @@
   "changeLanguage": "Change Language",
   "@changeLanguage": {
     "description": "Change language button text"
+  },
+  "explore": "Explore",
+  "@explore": {
+    "description": "Explore page title"
+  },
+  "favorites": "Favorites",
+  "@favorites": {
+    "description": "Favorites page title"
+  },
+  "explorePageDescription": "Discover interesting things around you.",
+  "@explorePageDescription": {
+    "description": "Explore page description text"
+  },
+  "favoritesPageDescription": "Your favorite items are stored here.",
+  "@favoritesPageDescription": {
+    "description": "Favorites page description text"
   }
 } 
