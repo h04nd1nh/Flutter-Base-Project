@@ -1,4 +1,23 @@
-# Flutter Flavors Scripts
+# Flutter Base Project - Clean Architecture Scripts
+
+## Code Generation
+
+### Run build_runner to generate code
+```bash
+flutter packages pub run build_runner build
+```
+
+### Watch for changes and auto-generate code
+```bash
+flutter packages pub run build_runner watch
+```
+
+### Clean generated files
+```bash
+flutter packages pub run build_runner clean
+```
+
+## Flutter Flavors Scripts
 
 ## Run Commands
 

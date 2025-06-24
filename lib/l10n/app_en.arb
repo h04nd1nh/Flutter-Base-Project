@@ -1,0 +1,115 @@
+{
+  "@@locale": "en",
+  "appName": "Flutter Base Project",
+  "@appName": {
+    "description": "The application name"
+  },
+  "appNameDev": "Flutter Base Project Dev",
+  "@appNameDev": {
+    "description": "The application name for development"
+  },
+  "appNameStaging": "Flutter Base Project Staging", 
+  "@appNameStaging": {
+    "description": "The application name for staging"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home page title"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile page title"
+  },
+  "appInformation": "App Information",
+  "@appInformation": {
+    "description": "App information section title"
+  },
+  "userInformation": "User Information",
+  "@userInformation": {
+    "description": "User information section title"
+  },
+  "flavor": "Flavor",
+  "@flavor": {
+    "description": "App flavor label"
+  },
+  "title": "Title",
+  "@title": {
+    "description": "Title label"
+  },
+  "apiBaseUrl": "API Base URL",
+  "@apiBaseUrl": {
+    "description": "API base URL label"
+  },
+  "isDevelopment": "Is Development",
+  "@isDevelopment": {
+    "description": "Is development mode label"
+  },
+  "isStaging": "Is Staging",
+  "@isStaging": {
+    "description": "Is staging mode label"
+  },
+  "isProduction": "Is Production",
+  "@isProduction": {
+    "description": "Is production mode label"
+  },
+  "id": "ID",
+  "@id": {
+    "description": "ID label"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name label"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Email label"
+  },
+  "avatar": "Avatar",
+  "@avatar": {
+    "description": "Avatar label"
+  },
+  "createdAt": "Created At",
+  "@createdAt": {
+    "description": "Created at label"
+  },
+  "updatedAt": "Updated At",
+  "@updatedAt": {
+    "description": "Updated at label"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error label"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
+  },
+  "goToProfile": "Go to Profile",
+  "@goToProfile": {
+    "description": "Go to profile button tooltip"
+  },
+  "pageNotFound": "Page not found",
+  "@pageNotFound": {
+    "description": "Page not found error message"
+  },
+  "profilePageDescription": "This is where user profile information would be displayed.",
+  "@profilePageDescription": {
+    "description": "Profile page description text"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language label"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language name"
+  },
+  "vietnamese": "Vietnamese",
+  "@vietnamese": {
+    "description": "Vietnamese language name"
+  },
+  "changeLanguage": "Change Language",
+  "@changeLanguage": {
+    "description": "Change language button text"
+  }
+} 

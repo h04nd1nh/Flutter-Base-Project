@@ -23,8 +23,8 @@ class FlavorBanner extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                _getBannerColor().withOpacity(0.8),
-                _getBannerColor().withOpacity(0.6),
+                _getBannerColor().withValues(alpha: 0.8),
+                _getBannerColor().withValues(alpha: 0.6),
               ],
             ),
           ),
