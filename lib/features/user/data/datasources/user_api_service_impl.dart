@@ -1,30 +1,17 @@
 import 'package:dio/dio.dart';
-import 'package:retrofit/retrofit.dart';
+import 'package:injectable/injectable.dart';
 import '../../../../core/network/api_endpoints.dart';
+import '../../../../core/network/dio_client.dart';
 import '../models/user_model.dart';
+import 'user_api_service.dart';
 
-@RestApi()
-abstract class UserApiService {
-  factory UserApiService(Dio dio, {String? baseUrl}) = _UserApiService;
+@LazySingleton(as: UserApiService)
+class UserApiServiceImpl implements UserApiService {
+  final DioClient _dioClient;
 
-  @GET(ApiEndpoints.profile)
-  Future<UserModel> getCurrentUser();
+  UserApiServiceImpl(this._dioClient);
 
-  @PUT(ApiEndpoints.updateProfile)
-  Future<UserModel> updateProfile(@Body() Map<String, dynamic> data);
-
-  @GET(ApiEndpoints.posts) // Using posts as example users endpoint
-  Future<List<UserModel>> getUsers();
-
-  @DELETE(ApiEndpoints.profile)
-  Future<void> deleteAccount();
-}
-
-// Temporary implementation until we run build_runner
-class _UserApiService implements UserApiService {
-  final Dio _dio;
-
-  _UserApiService(this._dio, {String? baseUrl});
+  Dio get _dio => _dioClient.client;
 
   @override
   Future<UserModel> getCurrentUser() async {

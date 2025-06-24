@@ -6,7 +6,7 @@ This project follows Clean Architecture principles with the following layer stru
 
 ```
 lib/
-├── core/                          # Core functionality
+├── core/                          # Core functionality 
 │   ├── di/                        # Dependency Injection
 │   ├── error/                     # Error handling
 │   ├── network/                   # Network configurations
