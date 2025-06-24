@@ -1,0 +1,101 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter (Develop)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_develop.dart",
+            "args": [
+                "--flavor",
+                "develop"
+            ]
+        },
+        {
+            "name": "Flutter (Staging)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--flavor",
+                "staging"
+            ]
+        },
+        {
+            "name": "Flutter (Production)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_production.dart",
+            "args": [
+                "--flavor",
+                "production"
+            ]
+        },
+        {
+            "name": "Flutter (Profile - Develop)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main_develop.dart",
+            "args": [
+                "--flavor",
+                "develop"
+            ]
+        },
+        {
+            "name": "Flutter (Profile - Staging)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--flavor",
+                "staging"
+            ]
+        },
+        {
+            "name": "Flutter (Profile - Production)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main_production.dart",
+            "args": [
+                "--flavor",
+                "production"
+            ]
+        },
+        {
+            "name": "Flutter (Release - Develop)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_develop.dart",
+            "args": [
+                "--flavor",
+                "develop"
+            ]
+        },
+        {
+            "name": "Flutter (Release - Staging)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--flavor",
+                "staging"
+            ]
+        },
+        {
+            "name": "Flutter (Release - Production)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_production.dart",
+            "args": [
+                "--flavor",
+                "production"
+            ]
+        }
+    ]
+} 
